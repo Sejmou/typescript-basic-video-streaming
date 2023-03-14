@@ -32,7 +32,7 @@ app.get('/', function (req, res) {
   res.sendFile(rootDir + '/index.html');
 });
 
-app.get('/video/:id', function (req, res) {
+app.get('/videos/:id', function (req, res) {
   handleVideoRequest(req, res);
 });
 
